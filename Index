@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head >
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>    
+    <title>Daniel Fernandez</title>
+    <link rel="stylesheet" type="text/css" href="Styles\StyleMaster.css">
+	<link rel="stylesheet" type="text/css" href="Styles\Default.css">
+
+</head>
+<body>
+    <form id="form1" >
+        <header>
+            <div class="logotipo">
+                <h1>Daniel Fernandez</h1>
+            </div>
+
+            <nav>
+                <div class="celu">
+                    <img src="Imagenes\MenuCelu.png"/>
+                </div>
+                <ul class="web">
+                    <li><a href="#">INICIO<br />
+                        <span>Home</span></a></li>
+                    <li><a href="#">SOBRE MI<br />
+                        <span>¿Quien soy?</span></a></li>
+                    <li><a href="#">CONTACTAME<br />
+                        <span>Escribime</span></a></li>
+                </ul>
+            </nav>
+
+
+        </header>
+
+        <hr></hr>
+        <section class="contenido">            
+                   <div class="cuerpo">
+        <section class="noticias">
+            <section class="main">
+                <h2 style="padding-bottom: 1.5%;"></h2>
+                <article>
+
+                </article>
+            </section>
+            <section class="secundario">
+
+            </section>
+        </section>
+        <aside>
+
+            <h2 style="padding-bottom: 3%;">¿Tienes un mensaje para compartir con Daniel? Completa tus datos para enviarle una nota</h2>
+           
+            <div>
+                <input type="Text" ID="TxtNombre" Class="Caja" placeholder="Tu nombre"></input><br />
+                <input type="Text" ID="Txtemail"   Class="Caja" placeholder="Tu e-mail"></input><br />
+                <input type="Text" ID="TxtCelular"   Class="Caja" placeholder="Tu celular" ></input><br />
+				<textarea   name = "description"  Class="Caja"  placeholder="¿Qué te gustaría decirle?"></textarea>	<br />
+                <input type="submit" ID="BtnEnviar" Class="boton" value ="Enviar" /><br />
+            </div>
+
+        </aside>
+    </div>
+        </section>
+
+        <footer>
+            <div>
+                <p style="padding-bottom: 1%; font-size: 1.3em">Angel Raul Daniel Fernandez </p>
+                <hr color=" #666666"></hr>
+                <div style="padding-top: 1%" >
+                <img src="Imagenes/facebook.png"   alt="facebook"  onclick="window.open('https://www.facebook.com/DanielFernandezSuoem','window','params');return false"/>
+                <img src="Imagenes/twitter.png"  alt="twitter" onclick="window.open('https://twitter.com/DANIELF48615893?fbclid=IwAR0ln17CdvmXomlcCVsRP3deTDOJ34OqDQ0HDQyPN79cgirevYcmoqNaKzo','window','params');return false"/>
+                <img src="Imagenes/instagram.png" alt="intagram" onclick="window.open('https://www.instagram.com/daniel_fernandez_suoem','window','params');return false"/>
+                <img src="Imagenes/youtube.png" alt="youtube"/>
+                    <p >Email: somosdanielfernandez@gmail.com</p>
+            </div>
+            </div>
+        </footer>
+
+    </form>
+</body>
+</html>
